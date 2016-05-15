@@ -22,7 +22,7 @@ VM Setup
 
 Installing is as simple as importing the .OVF template on the Hypervisor.
 
-Verify that the requirements(cpu/mem etc) are met. Thin provisioning the harddrives is possible. It should not use more than 10gb of disk.
+Verify that the requirements(cpu/mem etc) are met. Thin provisioning the harddrives is possible. It should not use more than 10gb of disk, but specify 200 GB so you have time to catch any issues.
 
 Placement in the datacenter
 ------------

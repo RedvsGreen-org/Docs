@@ -67,7 +67,12 @@ The default ip of RedvsGreen is 192.168.200.70, its unlikely this fits your need
 
 You will be shown a prompt with the logo as well as some default settings.
 
-2. Type "nmtui" in the cli prompt
+2. Type:
+
+.. code-block:: rst
+
+     nmtui
+
 3. Edit a connection
 4. Choose your interface "eno16777736"
 5. Edit it to fit your needs
@@ -91,34 +96,48 @@ Timezone is easily change by editing two files.
 
 First we store the old timezone as a backup:
 
-     `mv /etc/localtime /etc/localtime.bak` 
+.. code-block:: rst
+
+     mv /etc/localtime /etc/localtime.bak
 
 It will prompt you to overwrite it, this is ok.
 
 As an example we list all available timezones in europe:
 
-     `ls -al /usr/share/zoneinfo/Europe/`
+     .. code-block:: rst
+
+     ls -al /usr/share/zoneinfo/Europe/
 
 Then we make a symlink to our chosen timezone:
 
-     `ln -s /usr/share/zoneinfo/Europe/Stockholm /etc/localtime`
+.. code-block:: rst
+
+     ln -s /usr/share/zoneinfo/Europe/Stockholm /etc/localtime
 
 Verify the new timezone by typing:
 
-     `date`
+.. code-block:: rst
+
+     date
 
 Second file we need to edit is the php.ini:
 
-       `vi /etc/php.ini`
+.. code-block:: rst
+
+       vi /etc/php.ini
 
 When the file is open type "/timezone" to search for it.
 Change the line to reflect your needs. Example
 
-       `date.timezone = Europe/Stockholm`
+.. code-block:: rst
+
+       date.timezone = Europe/Stockholm
        
 Restart the httpd deamon to make use the new timezone:
 
-       `systemctl restart httpd`  
+.. code-block:: rst
+
+       systemctl restart httpd
 
 NTP
 ------------
@@ -127,33 +146,45 @@ NTP
 
 Edit ntp.conf:
 
-      `vi /etc/ntp.conf`
+.. code-block:: rst
+
+      vi /etc/ntp.conf
 
 Change the line "server 192.168.206.5 iburst" to fit your needs.
+
+.. code-block:: rst
 
       server ntp1.example.com iburst
       server ntp2.example.com iburst
       
 After you have made the change restart the server:
 
-    `shutdown -r now`
+.. code-block:: rst
+
+    shutdown -r now
 
 When it boots up verify that time is synced:
 
-      `ntpstat`
+.. code-block:: rst
+
+      ntpstat
       
 Example output:
 
-    `synchronised to NTP server (192.168.206.5) at stratum 3`  
-    `time correct to within 8522 ms`  
-    `polling server every 64s`  
+.. code-block:: rst
+
+    synchronised to NTP server (192.168.206.5) at stratum 3  
+    time correct to within 8522 ms
+    polling server every 64s  
 
 Accessing the WebGui
 ------------
 
 Webgui can be accessed on:
 
-      `https://redvsgreenipaddress`
+.. code-block:: rst
+
+      https://redvsgreenipaddress
       
 Default credentials are: admin/redvsgreen
 
@@ -165,21 +196,27 @@ Cacti and dashinga2 stops working after timezone change:
 
 If you change the time backwards in time the poller will stop until you reach the old time you had. To fix this we need to force it to run once.
 
-      `php /var/www/html/cacti/poller.php --force"
+.. code-block:: rst
+
+      php /var/www/html/cacti/poller.php --force
       
 Run it for 10 seconds and then hit CTRL + C to quit.
 
 You should also stop dashinga2 and start it from commandline:
 
-      `systemctl stop dashinga2`
+.. code-block:: rst
+
+      systemctl stop dashinga2
       
-      `cd /usr/share/dashinga2`
+      cd /usr/share/dashinga2
       
-      `dashing start`
+      dashing start
       
-      Run it for 10 seconds then stop it using CTRL + C
+ Run it for 10 seconds then stop it using CTRL + C
+
+.. code-block:: rst
       
-      `systemctl start dashinga2`
+      systemctl start dashinga2
       
 
 

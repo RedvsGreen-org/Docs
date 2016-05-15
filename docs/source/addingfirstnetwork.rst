@@ -56,11 +56,11 @@ Mark all devices by clicking the checkbox in the top right corner. in the dropdo
 
 .. image:: ../../images/addtotree.png
 
-Verify by:
+Verify by opening the graphs tab:
 
 .. code-block:: rst
 
-   Verify by going to: Graphs
+   Go to: Graphs
 
 Troubleshooting
 ------------

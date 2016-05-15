@@ -113,5 +113,28 @@ Restart the httpd deamon to make use the new timezone:
 NTP
 ------------
 
+Alot of plugins and tools rely on time being exact to the second. Do not proceed without syncing to a ntp server.
+
+Edit ntp.conf:
+
+      `vi /etc/ntp.conf`
+
+Change the line "server 192.168.206.5 iburst" to fit your needs.
+
+      `server ntp1.example.com iburst`
+      `server ntp2.example.com iburst`
+
+Accessing the WebGui
+------------
+
+Webgui can be accessed on:
+
+      `https://redvsgreenipaddress
+      
+Default credentials are: admin/redvsgreen
+
+Troubleshooting
+------------
+
 
 

@@ -4,10 +4,10 @@ Introduction
 What is RedvsGreen
 ----------
 
-RedvsGreen is a VM with a collection of open source monioring solutions as well as templates and default monitoring plugins for common vendors. 
-The insipiration for creating this came from the CactiEZ.
+RedvsGreen is a VM with a collection of open source monitoring solutions as well as templates and default monitoring plugins for common vendors. 
+The inspiration for creating this came from the amazing CactiEZ.
 
-Currently it consists of:
+It consists of:
 
 * Cacti v1.0.0 + Weathermap
 * Icinga v2.4.7 + Web2 + Director
@@ -16,6 +16,7 @@ Currently it consists of:
 * Dashinga2(icinga2-dashing with some modifications)
 
 Its running on Centos 7 Kernel 3.10 with:
+
 * SSL enabled on everything
 * KSM memory deduping enabled
 * Latest updates

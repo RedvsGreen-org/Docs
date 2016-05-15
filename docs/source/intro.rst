@@ -1,7 +1,7 @@
 Introduction
 ============
 
-Who am I?
+Who am I2?
 ----------
 
 I'm student of technical university in Czech republic and one of my hobbies is IT. I'm user of Arch Linux on my laptop and I'm also running small home server hosting several websites of my friends and myself. 
@@ -12,7 +12,7 @@ There is also missing bridge between guides for beginners (or **normal** users) 
 
 Second motivation for me was also the fact that I've terrible memory and started to forget all useful things. So this also serves as kind of a notebook for me.
 
-What are these guides about
+What are these guides about2
 ----------------------------
 
 So I decided to write guides for this **middle** class. In these guides I'm going to cover several topics as it's coming to my mind.

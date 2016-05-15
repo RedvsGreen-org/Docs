@@ -89,7 +89,7 @@ As an example we list all available timezones in europe:
 
      `ls -al /usr/share/zoneinfo/Europe/`
 
-Then we make a symlink to our chosen timezone
+Then we make a symlink to our chosen timezone:
 
      `ln -s /usr/share/zoneinfo/Europe/Stockholm /etc/localtime`
 
@@ -97,7 +97,7 @@ Verify the new timezone by typing:
 
      `date`
 
-Second file we need to edit is the php.ini
+Second file we need to edit is the php.ini:
 
        `vi /etc/php.ini`
 
@@ -106,7 +106,9 @@ Change the line to reflect your needs. Example
 
        `date.timezone = Europe/Stockholm`
        
-       
+Restart the httpd deamon to make use the new timezone:
+
+       `systemctl restart httpd`  
 
 NTP
 ------------

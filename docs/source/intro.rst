@@ -31,6 +31,11 @@ Out of the box vendor support:
 * Bluecoat - ProxySG
 * F5 - LTM/APM
 
+Screenshots
+--------
+
+.. image:: ../../images/menu.png
+
 Feedback
 --------
 

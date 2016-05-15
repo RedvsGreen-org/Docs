@@ -123,6 +123,21 @@ Change the line "server 192.168.206.5 iburst" to fit your needs.
 
       `server ntp1.example.com iburst`
       `server ntp2.example.com iburst`
+      
+After you have made the change restart the server:
+
+    `shutdown -r now`
+
+When it boots up verify that time is synced:
+
+      `ntpstat`
+      
+Example output:
+
+      `synchronised to NTP server (192.168.206.5) at stratum 3
+       time correct to within 8522 ms
+       polling server every 64 s`
+
 
 Accessing the WebGui
 ------------

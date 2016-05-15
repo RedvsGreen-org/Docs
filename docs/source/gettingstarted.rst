@@ -188,6 +188,8 @@ Webgui can be accessed on:
       
 Default credentials are: admin/redvsgreen
 
+.. Tip:: You probably want to add a easily accessible bookmark ASAP since it will be alot of back and forth between the applications.
+
 Troubleshooting
 ------------
 

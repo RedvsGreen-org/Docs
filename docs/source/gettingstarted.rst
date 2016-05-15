@@ -121,7 +121,7 @@ Edit ntp.conf:
 
 Change the line "server 192.168.206.5 iburst" to fit your needs.
 
-      `server ntp1.example.com iburst`
+      `server ntp1.example.com iburst` 
       `server ntp2.example.com iburst`
       
 After you have made the change restart the server:

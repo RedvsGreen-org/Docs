@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Kotrfa's guides
+Welcome to RedvsGreen Guides
 ==========================
 
 Contents:
@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 3
     
    source/intro
+<!---
    source/nec_know
    source/domains_ip_servers
    source/ndg
@@ -19,6 +20,7 @@ Contents:
    source/RPi
    source/git_rtd
    source/git_workflow
+--->
 
 Indices and tables
 ==================

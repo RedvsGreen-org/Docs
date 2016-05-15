@@ -1,7 +1,7 @@
-Adding your first hosts and network
+Adding your first devices
 =========================================================
 
-This section describes how to scan your first network and add them to RedvsGreen.
+This section describes how to scan your first network and adding the devices to RedvsGreen.
 
 Cacti Automation Network Scanning
 ------------

@@ -42,7 +42,7 @@ Issue a ping from CLI to the device:
 
     `ping 192.168.206.5`
     
-    Success:
+Success:
 
 .. code-block:: rst
     PING 192.168.206.5 (192.168.206.5) 56(84) bytes of data. 
@@ -51,6 +51,7 @@ Issue a ping from CLI to the device:
     --- 192.168.206.5 ping statistics ---
     2 packets transmitted, 2 received, 0% packet loss, time 1000ms
     rtt min/avg/max/mdev = 0.537/0.595/0.654/0.063 ms
+
 
 2. Does not respond to snmp:
 

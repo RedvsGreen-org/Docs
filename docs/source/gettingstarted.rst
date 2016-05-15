@@ -150,5 +150,24 @@ Default credentials are: admin/redvsgreen
 Troubleshooting
 ------------
 
+Cacti and dashinga2 stops working after timezone change:
+
+If you change the time backwards in time the poller will stop until you reach the old time you had. To fix this we need to force it to run once.
+
+      `php /var/www/html/cacti/poller.php --force"
+      
+Run it for 10 seconds and then hit CTRL + C to quit.
+
+You should also stop dashinga2 and start it from commandline:
+
+      `systemctl stop dashinga2`
+      `cd /usr/share/dashinga2`
+      `dashing start`
+      
+      Run it for 10 seconds then stop it using CTRL + C
+      
+      `systemctl start dashinga2`
+      
+
 
 

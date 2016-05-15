@@ -9,6 +9,7 @@ Cacti Automation Network Scanning
 ------------
 
 Login in to RedvsGreen via the Webgui and Click on the cacti button.
+
 First we need to setup the default snmp credentials for your network.
 
     Go to: Console -> Automation -> SNMP Options

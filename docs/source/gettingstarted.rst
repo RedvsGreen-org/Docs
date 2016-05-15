@@ -134,9 +134,9 @@ When it boots up verify that time is synced:
       
 Example output:
 
-    `synchronised to NTP server (192.168.206.5) at stratum 3  `
-    `time correct to within 8522 ms  `
-    `polling server every 64s ` 
+    `synchronised to NTP server (192.168.206.5) at stratum 3`  
+    `time correct to within 8522 ms`  
+    `polling server every 64s`  
 
 Accessing the WebGui
 ------------

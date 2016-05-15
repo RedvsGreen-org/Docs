@@ -5,17 +5,21 @@ Requirements
 ----------------
 The .OVF is made for VMWARE ESX/ESXi 6.0.0+ but it might work for other Hypervisors as well.
 
-* 4 Cpus
-* 4 Gb Ram
-* 200 Gb Disk (Prefferably SSD)
+.. code-block:: rst
+
+      * 4 Cpus
+      * 4 Gb Ram
+      * 200 Gb Disk (Prefferably SSD)
 
 Default Credentials
 ------------
 
 All Default credentials can be found in the /root/redsvgreen folder
 
-* centos: root/redvsgreen
-* Webinterface: admin/redvsgreen
+.. code-block:: rst
+
+      * centos: root/redvsgreen
+      * Webinterface: admin/redvsgreen
 
 VM Setup
 ------------
@@ -73,7 +77,9 @@ You will be shown a prompt with the logo as well as some default settings.
 6. When you are done hit OK and exit the application
 7. Now we need to restart it. Type:
 
-      `shutdown -r now`
+.. code-block:: rst
+
+      shutdown -r now
 
 Verify that it works by accessing the device by ssh this time.
 

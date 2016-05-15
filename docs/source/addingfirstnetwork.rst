@@ -40,7 +40,7 @@ Common resons for device not being found:
 
 Issue a ping from CLI to the device:
 
-    'ping 192.168.206.5'
+    `ping 192.168.206.5`
     
     Success:
     
@@ -55,7 +55,7 @@ Issue a ping from CLI to the device:
 
 Issue a snmpwalk from CLI to the device:
 
-    'snmpwalk -v2c -c public 192.168.206.5'
+    `snmpwalk -v2c -c public 192.168.206.5`
     
     Success shows lots of SNMP-MIB information:
     

@@ -8,6 +8,9 @@ This section describes how to scan your first network and adding the devices to 
 Cacti Automation Network Scanning
 ------------
 
+Scanning A Network
+~~~~~~~~~~~~~~~~~~~~
+
 Login in to RedvsGreen via the Webgui and Click on the Cacti button.
 
 First we need to setup the default snmp credentials for your network.
@@ -26,11 +29,38 @@ After you filled out all of your credentials:
     
 Open "Test Network" and change it to reflect the network you will scan. After you changed it hit the save button and go back to the previous page. Here you can select "Test network" and manually issue a "Discover Now" event.
 
+After you are done scanning:
+
+.. code-block:: rst
+
+    Go to: Console -> Devices
+    
+Verify that the devices have been added correctly.
+
 .. image:: ../../images/snmptoptions.png
 
 .. Tip:: You can reuse the "Test Network" for other scans, or you can create your own network and have them continuously scanned for automatic device addition.
 
 .. Note:: All devices needs to be reachable by ICMP ping and SNMP(UDP 161)
+
+
+
+Adding Devices to Trees
+~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: rst
+
+    Go to: Console -> Devices
+
+Mark all devices by clicking the checkbox in the top right corner. in the dropdown select "Apply Automation Rules"
+
+.. image:: ../../images/addtotree.png
+
+Verify by:
+
+.. code-block:: rst
+
+   Verify by going to: Graphs
 
 Troubleshooting
 ------------

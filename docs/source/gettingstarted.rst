@@ -12,8 +12,10 @@ Requirements
 Default Credentials
 ------------
 
-centos: root/redvsgreen
-Webinterface: admin/redvsgreen
+All Default credentials can be found in the /root/redsvgreen folder
+
+* centos: root/redvsgreen
+* Webinterface: admin/redvsgreen
 
 Initial Setup
 ------------

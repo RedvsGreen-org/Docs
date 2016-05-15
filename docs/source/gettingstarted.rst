@@ -48,10 +48,35 @@ For uptime concers go with option 1, for security concerns go with options 2.
 
 As always the traffic to and from the monitoring device should be limited. Escpecially true if you are using it to store backups with oxidized which uses SSH. More on how to secure this is in the oxidized chapter.
 
-Initial Setup
+Management IP
 ------------
 
-1. Dns
-2. Timezones
-3. NTP
+After you have imported and started it in your Hypervisor head for the console access.
+
+The Default ip of RedvsGreen is 192.168.200.70, its unlikely this fits your needs so lets change it:
+
+1. Login with root/redvsgreen.
+
+You will be shown a prompt with the logo as well as some default settings.
+
+2. Type "nmtui" in the cli prompt.
+3. Edit a connection
+4. Choose your interface "eno16777736"
+5. Edit it to fit your needs.
+
+Make sure you add the correct dns settings, as it will become very slow if it cannot resolve dns names.
+
+6. When you are done hit Ok and exit the application.
+7. Now we need to restart it. Type "shutdown -r now" in the cli and it should restart.
+
+Verify that it works by accessing the device by ssh this time.
+
+
+TimeZone
+------------
+
+NTP
+------------
+
+
 

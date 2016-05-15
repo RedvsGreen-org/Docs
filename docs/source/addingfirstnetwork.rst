@@ -3,7 +3,7 @@ Adding your first devices
 
 This section describes how to scan your first network and adding the devices to RedvsGreen.
 
-.. Tip:: Before proceding it can be good to standardize on a common snmp standard for all devices. Example SNMP V3
+.. Tip:: Before proceding it can be good to standardize on a common snmp standard for all devices. Example SNMP V3.
 
 Cacti Automation Network Scanning
 ------------

@@ -137,7 +137,7 @@ Example output:
 ```
 synchronised to NTP server (192.168.206.5) at stratum 3 
 time correct to within 8522 ms 
-polling server every 64s`
+polling server every 64s
 ```
 
 Accessing the WebGui

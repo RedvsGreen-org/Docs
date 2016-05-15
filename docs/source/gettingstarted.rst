@@ -113,7 +113,7 @@ Restart the httpd deamon to make use the new timezone:
 NTP
 ------------
 
-.. note:: Alot of plugins and tools rely on time being exact to the second. Do not proceed without syncing to a ntp server.
+.. warning:: Alot of plugins and tools rely on time being exact to the second. Do not proceed without syncing to a ntp server.
 
 Edit ntp.conf:
 

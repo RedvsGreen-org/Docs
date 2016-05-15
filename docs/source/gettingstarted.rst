@@ -3,11 +3,11 @@ Inital Setup and Installation
 
 Requirements
 ----------------
+The .OVF is made for VMWARE ESX/ESXi 6.0.0+ but it might work for other Hypervisors as well.
 
 * 4 Cpus
 * 4 Gb Ram
 * 200 Gb Disk (Prefferably SSD)
-* VMWARE ESX/ESXi 6.0.0+
 
 Default Credentials
 ------------
@@ -17,9 +17,41 @@ All Default credentials can be found in the /root/redsvgreen folder
 * centos: root/redvsgreen
 * Webinterface: admin/redvsgreen
 
+VM Setup
+------------
+
+Installing is as simple as importing the .OVF template on the Hypervisor.
+
+Verify that the requirements(cpu/mem etc) are met. Thin provisioning the harddrives is possible. It should not use more than 10gb of disk.
+
+Placement in the datacenter
+------------
+
+Example of two setups:
+
+1. Directly in the OOB network.
+
+OOB-Network: 192.168.200.0/24
+redvsgreen-ip: 192.168.200.70
+
+This allows you to monitor all equipment even if there is a router/firewall failure.
+
+2. On a separate monitoring network
+
+OOB-Network: 192.168.200.0/24
+Monitoring-Network: 192.168.100.0/24
+redvsgreen-ip: 192.168.100.70
+
+This allows for a more secure setup as protocols can be limited and traffic can be inspected by a intermediate device. If the intermediate device fails you loose your monitoring capabilites.
+
+For uptime concers go with option 1, for security concerns go with options 2.
+
+As always the traffic to and from the monitoring device should be limited. Escpecially true if you are using it to store backups with oxidized which uses SSH. More on how to secure this is in the oxidized chapter.
+
 Initial Setup
 ------------
 
 1. Dns
 2. Timezones
 3. NTP
+

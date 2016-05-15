@@ -23,7 +23,8 @@ Its running on Centos 7 Kernel 3.10 with:
 
 The goal with RedvsGreen is to provide a complete network/data center monitoring tool that is fast and easy to configure.
 
-Out of the box vendor support:
+Supported Vendors
+----------
 
 * Juniper - EX/SRX/Netscreen
 * PulseSecure - MAG

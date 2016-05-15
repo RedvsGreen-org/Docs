@@ -67,7 +67,9 @@ You will be shown a prompt with the logo as well as some default settings.
 Make sure you add the correct dns settings, as it will become very slow if it cannot resolve dns names.
 
 6. When you are done hit OK and exit the application
-7. Now we need to restart it. Type "shutdown -r now" in the cli and it should restart
+7. Now we need to restart it. Type:
+
+      `shutdown -r now`
 
 Verify that it works by accessing the device by ssh this time.
 
@@ -80,7 +82,9 @@ Timezone is easily change by editing two files.
 First we store the old timezone as a backup:
 
      `mv /etc/localtime /etc/localtime.bak` 
-    
+
+It will prompt you to overwrite it, this is ok.
+
 As an example we list all available timezones in europe:
 
      `ls -al /usr/share/zoneinfo/Europe/`
@@ -89,7 +93,20 @@ Then we make a symlink to our chosen timezone
 
      `ln -s /usr/share/zoneinfo/Europe/Stockholm /etc/localtime`
 
+Verify the new timezone by typing:
 
+     `date`
+
+Second file we need to edit is the php.ini
+
+       `vi /etc/php.ini`
+
+When the file is open type "/timezone" to search for it.
+Change the line to reflect your needs. Example
+
+       `date.timezone = Europe/Stockholm`
+       
+       
 
 NTP
 ------------

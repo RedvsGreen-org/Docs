@@ -36,6 +36,8 @@ Screenshots
 
 .. image:: ../../images/menu.png
 
+.. image:: ../../images/dashinga2.png
+
 Feedback
 --------
 

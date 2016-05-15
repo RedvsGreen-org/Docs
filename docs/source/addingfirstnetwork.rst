@@ -44,8 +44,8 @@ Issue a ping from CLI to the device:
     
     Success:
     
-    > PING 192.168.206.5 (192.168.206.5) 56(84) bytes of data.
-    > 64 bytes from 192.168.206.5: icmp_seq=1 ttl=64 time=0.537 ms
+    > PING 192.168.206.5 (192.168.206.5) 56(84) bytes of data.  
+    > 64 bytes from 192.168.206.5: icmp_seq=1 ttl=64 time=0.537 ms  
     > 64 bytes from 192.168.206.5: icmp_seq=2 ttl=64 time=0.654 ms
     > --- 192.168.206.5 ping statistics ---
     > 2 packets transmitted, 2 received, 0% packet loss, time 1000ms

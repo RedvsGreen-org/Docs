@@ -14,9 +14,7 @@ First we need to setup the default snmp credentials for your network.
 
     Go to: Console -> Automation -> SNMP Options
     
-Open the default option set.
-
-Add all your SNMP credentials.
+Open the default option set and add all your SNMP credentials.
 
 After you filled out all of your credentials:
 

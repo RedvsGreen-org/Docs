@@ -64,7 +64,9 @@ Success:
 
 Issue a snmpwalk from CLI to the device:
 
-    `snmpwalk -v2c -c public 192.168.206.5`
+.. code-block:: rst
+
+    snmpwalk -v2c -c public 192.168.206.5
     
 Success shows lots of SNMP-MIB information:
     

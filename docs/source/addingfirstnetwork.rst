@@ -24,7 +24,7 @@ Open "Test Network" and change it to reflect the network you will scan. After yo
 
 .. image:: ../../images/snmptoptions.png
 
-.. Tip:: You can reuse the "Test Network" for other scans, or you can create your own network and have them continuasly scanned for automatic device addition.
+.. Tip:: You can reuse the "Test Network" for other scans, or you can create your own network and have them continuously scanned for automatic device addition.
 
 .. Note:: All devices needs to be reachable by ICMP ping and SNMP(UDP 161)
 

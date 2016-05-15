@@ -26,6 +26,7 @@ After you filled out all of your credentials:
     
 Open "Test Network" and change it to reflect the network you will scan. After you changed it hit the save button and go back to the previous page. Here you can select "Test network" and manually issue a "Discover Now" event.
 
+.. image:: ../../images/snmptoptions.png
 
 .. Tip:: You can reuse the "Test Network" for other scans, or you can create your own network and have them continuasly scanned for automatic device addition.
 

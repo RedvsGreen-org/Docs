@@ -151,6 +151,7 @@ Troubleshooting
 ------------
 
 Cacti and dashinga2 stops working after timezone change:
+~~~~~~~~~~~~~~~~~~~~
 
 If you change the time backwards in time the poller will stop until you reach the old time you had. To fix this we need to force it to run once.
 

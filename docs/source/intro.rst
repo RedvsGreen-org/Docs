@@ -32,11 +32,11 @@ Supported Vendors
 
 .. code-block:: rst
 
-* Juniper - EX/SRX/Netscreen
-* PulseSecure - MAG
-* Palo ALto - VM/Appliance
-* Bluecoat - ProxySG
-* F5 - LTM/APM
+ * Juniper - EX/SRX/Netscreen
+ * PulseSecure - MAG
+ * Palo ALto - VM/Appliance
+ * Bluecoat - ProxySG
+ * F5 - LTM/APM
 
 Screenshots
 --------

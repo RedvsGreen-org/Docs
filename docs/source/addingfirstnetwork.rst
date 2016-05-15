@@ -43,7 +43,7 @@ Issue a ping from CLI to the device:
     `ping 192.168.206.5`
     
     Success:
-    
+.. code-block::
     > PING 192.168.206.5 (192.168.206.5) 56(84) bytes of data.  
     > 64 bytes from 192.168.206.5: icmp_seq=1 ttl=64 time=0.537 ms  
     > 64 bytes from 192.168.206.5: icmp_seq=2 ttl=64 time=0.654 ms

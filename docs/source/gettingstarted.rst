@@ -66,7 +66,7 @@ You will be shown a prompt with the logo as well as some default settings.
 
 Make sure you add the correct dns settings, as it will become very slow if it cannot resolve dns names.
 
-6. When you are done hit Ok and exit the application
+6. When you are done hit OK and exit the application
 7. Now we need to restart it. Type "shutdown -r now" in the cli and it should restart
 
 Verify that it works by accessing the device by ssh this time.

@@ -13,5 +13,6 @@ Contents:
     
    source/intro
    source/gettingstarted
+   source/addingfirstnetwork
 
 

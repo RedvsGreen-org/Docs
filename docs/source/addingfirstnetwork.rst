@@ -40,7 +40,9 @@ Common resons for device not being found:
 
 Issue a ping from CLI to the device:
 
-    `ping 192.168.206.5`
+.. code-block:: rst
+
+    ping 192.168.206.5
     
 Success:
 

@@ -104,7 +104,7 @@ It will prompt you to overwrite it, this is ok.
 
 As an example we list all available timezones in europe:
 
-     .. code-block:: rst
+.. code-block:: rst
 
      ls -al /usr/share/zoneinfo/Europe/
 
@@ -127,7 +127,7 @@ Second file we need to edit is the php.ini:
        vi /etc/php.ini
 
 When the file is open type "/timezone" to search for it.
-Change the line to reflect your needs. Example
+Change the line to reflect your needs. Example:
 
 .. code-block:: rst
 
@@ -212,7 +212,8 @@ You should also stop dashinga2 and start it from commandline:
       
       dashing start
       
- Run it for 10 seconds then stop it using CTRL + C
+
+Run it for 10 seconds then stop it using CTRL + C
 
 .. code-block:: rst
       

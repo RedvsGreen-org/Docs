@@ -31,16 +31,16 @@ Example of two setups:
 
 1. Directly in the OOB network.
 
-OOB-Network: 192.168.200.0/24
-redvsgreen-ip: 192.168.200.70
+* OOB-Network: 192.168.200.0/24
+* redvsgreen-ip: 192.168.200.70
 
 This allows you to monitor all equipment even if there is a router/firewall failure.
 
 2. On a separate monitoring network
 
-OOB-Network: 192.168.200.0/24
-Monitoring-Network: 192.168.100.0/24
-redvsgreen-ip: 192.168.100.70
+* OOB-Network: 192.168.200.0/24
+* Monitoring-Network: 192.168.100.0/24
+* redvsgreen-ip: 192.168.100.70
 
 This allows for a more secure setup as protocols can be limited and traffic can be inspected by a intermediate device. If the intermediate device fails you loose your monitoring capabilites.
 

@@ -46,7 +46,7 @@ This allows for a more secure setup as protocols can be limited and traffic can 
 
 For uptime concers go with option 1, for security concerns go with options 2.
 
-As always the traffic to and from the monitoring device should be limited. Escpecially true if you are using it to store backups with oxidized which uses SSH. More on how to secure this is in the oxidized chapter.
+.. note:: As always the traffic to and from the monitoring device should be limited. Escpecially true if you are using it to store backups with oxidized which uses SSH. More on how to secure this is in the oxidized chapter.
 
 Management IP
 ------------
@@ -64,7 +64,7 @@ You will be shown a prompt with the logo as well as some default settings.
 4. Choose your interface "eno16777736"
 5. Edit it to fit your needs
 
-Make sure you add the correct dns settings, as it will become very slow if it cannot resolve dns names.
+.. note:: Make sure you add the correct dns settings, as it will become very slow if it cannot resolve dns names.
 
 6. When you are done hit OK and exit the application
 7. Now we need to restart it. Type:

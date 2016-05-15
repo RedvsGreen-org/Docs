@@ -79,8 +79,8 @@ Timezone is easily change by editing two files.
 
 First we store the old timezone as a backup:
 
-    mv /etc/localtime /etc/localtime.bak
-    ln -s /usr/share/zoneinfo/Asia/Dubai /etc/localtime
+   `mv /etc/localtime /etc/localtime.bak`
+    `ln -s /usr/share/zoneinfo/Asia/Dubai /etc/localtime`
 
 
 

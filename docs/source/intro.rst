@@ -25,11 +25,11 @@ The goal with RedvsGreen is to provide a complete network/data center monitoring
 
 Out of the box vendor support:
 
-*Juniper - EX/SRX/Netscreen
-*PulseSecure - MAG
-*Palo ALto - VM/Appliance
-*Bluecoat - ProxySG
-*F5 - LTM/APM
+* Juniper - EX/SRX/Netscreen
+* PulseSecure - MAG
+* Palo ALto - VM/Appliance
+* Bluecoat - ProxySG
+* F5 - LTM/APM
 
 Feedback
 --------

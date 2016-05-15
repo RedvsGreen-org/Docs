@@ -134,9 +134,9 @@ When it boots up verify that time is synced:
       
 Example output:
 
-      `synchronised to NTP server (192.168.206.5) at stratum 3`
-      `time correct to within 8522 ms`
-      `polling server every 64 s`
+      `synchronised to NTP server (192.168.206.5) at stratum 3` 
+      `time correct to within 8522 ms` 
+      `polling server every 64 s` 
 
 
 Accessing the WebGui
@@ -144,7 +144,7 @@ Accessing the WebGui
 
 Webgui can be accessed on:
 
-      `https://redvsgreenipaddress
+      `https://redvsgreenipaddress`
       
 Default credentials are: admin/redvsgreen
 

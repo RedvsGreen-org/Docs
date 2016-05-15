@@ -12,4 +12,5 @@ Contents:
    :maxdepth: 3
     
    source/intro
+   source/gettingstarted
 

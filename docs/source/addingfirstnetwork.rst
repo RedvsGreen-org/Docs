@@ -62,6 +62,8 @@ Issue a snmpwalk from CLI to the device:
     
     Success shows lots of SNMP-MIB information:
     
+.. code-block:: rst
+
     ...
     SNMPv2-MIB::sysDescr.0 = STRING: Linux ntp.lab 3.10.0-327.4.4.el7.x86_64 #1 SMP Tue Jan 5 16:07:00 UTC 2016 x86_64
     SNMPv2-MIB::sysObjectID.0 = OID: NET-SNMP-MIB::netSnmpAgentOIDs.10

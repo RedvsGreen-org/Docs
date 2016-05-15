@@ -12,11 +12,15 @@ Login in to RedvsGreen via the Webgui and Click on the Cacti button.
 
 First we need to setup the default snmp credentials for your network.
 
+.. code-block:: rst
+
     Go to: Console -> Automation -> SNMP Options
     
 Open the default option set and add all your SNMP credentials.
 
 After you filled out all of your credentials:
+
+.. code-block:: rst
 
     Go to: Console -> Automation -> Networks
     

@@ -7,11 +7,13 @@ Requirements
 * 4 Cpus
 * 4 Gb Ram
 * 200 Gb Disk (Prefferably SSD)
+* VMWARE ESX/ESXi 6.0.0+
 
 Default Credentials
 ------------
 
-admin/redvsgreen
+centos: root/redvsgreen
+Webinterface: admin/redvsgreen
 
 Initial Setup
 ------------

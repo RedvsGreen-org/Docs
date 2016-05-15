@@ -161,7 +161,9 @@ Run it for 10 seconds and then hit CTRL + C to quit.
 You should also stop dashinga2 and start it from commandline:
 
       `systemctl stop dashinga2`
+      
       `cd /usr/share/dashinga2`
+      
       `dashing start`
       
       Run it for 10 seconds then stop it using CTRL + C

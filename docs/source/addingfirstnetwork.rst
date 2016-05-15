@@ -1,9 +1,9 @@
 Adding your first hosts and network
 =========================================================
 
-test
+This section describes how to scan your first network and add them to RedvsGreen.
 
-Installation
+Cacti Automation Network Scanning
 ------------
 
 test
